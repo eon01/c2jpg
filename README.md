@@ -11,3 +11,13 @@ to jpg/jpeg formats.
 Depends on : gimp, imagemagick, dcraw.
 
 
+To use it from command line, download the script to /bin/ :
+
+sudo wget https://raw.githubusercontent.com/eon01/c2jpg/master/c2jpg.sh -O /bin/c2jpg
+sudo chmod +x /bin/c2jpg
+
+Usage :
+cd photos_directory
+c2jpg *
+or 
+c2jpg [file(s)_to_convert]
